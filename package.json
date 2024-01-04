@@ -1,0 +1,17 @@
+{
+  "name": "bypass-kota-madiun",
+  "version": "1.0.0",
+  "description": "membypass kota madiun yang disediakan pemerintah kota madiun agar tidak perlu meloginnya tanpa perlu menonton video/iklan internet akan tetap terhubung walau batas expired habis otomatis terlogin kembali",
+  "main": "bypass.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "viko dwi kurniawan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.4",
+    "cheerio": "^1.0.0-rc.12",
+    "exec": "^0.2.1",
+    "node-cmd": "^5.0.0"
+  }
+}
