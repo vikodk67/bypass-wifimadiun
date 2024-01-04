@@ -12,7 +12,8 @@ Jangan digunakan untuk keuntungan pribadi. ini milik semua, salam kota pendekarr
 
 ### Preview bypass
 <img src="./carbon.png" width="500">
-## Installation
+
+# Installation
 
 - install *node-v20.10.0-x86.msi* sampai selesai
 - lalu ekstrak rar  *node_modules.rar* menggunakan software winrar atau bawaan dari windows
