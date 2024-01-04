@@ -3,6 +3,8 @@
 
 # Bypass wifi kota madiun
 kota madiun menyediakan wifi gratis yang tersebar di dalam kota, setiap gang/gardu terpasang wifi "kota pendekar" dan sejenisnya. mungkin anda membutuhkan bypass ini berfungsi untuk memberhentikan waktu limit internetnya agar tetap terkoneksi tanpa harus login mikrotik juga yang mengharuskan menonton video atau menekan tombol untuk mengakses jaringan. hanya pengguna leptop cocok untuk anak kampus/sekolah yang ingin belajar atau mendownload apapun bebas limit
+
+jika tidak berfungsi/masalah lain, silahkan untuk menghubungi gmail `brizyy36@gmail.com`
 #### Warning
 Jangan digunakan untuk keuntungan pribadi. ini milik semua, salam kota pendekarr. jossss
 
