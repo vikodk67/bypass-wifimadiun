@@ -2,7 +2,10 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Lambang_Kota_Madiun.png" width="80">
 
 # Bypass wifi kota madiun
-kota madiun menyediakan wifi gratis yang tersebar di dalam kota, setiap gang/gardu terpasang wifi "kota pendekar" dan sejenisnya. mungkin anda membutuhkan bypass ini berfungsi untuk memberhentikan waktu limit internetnya agar tetap terkoneksi tanpa harus login mikrotik juga yang mengharuskan menonton video atau menekan tombol untuk mengakses jaringan.
+kota madiun menyediakan wifi gratis yang tersebar di dalam kota, setiap gang/gardu terpasang wifi "kota pendekar" dan sejenisnya. mungkin anda membutuhkan bypass ini berfungsi untuk memberhentikan waktu limit internetnya agar tetap terkoneksi tanpa harus login mikrotik juga yang mengharuskan menonton video atau menekan tombol untuk mengakses jaringan. hanya pengguna leptop cocok untuk anak kampus/sekolah yang ingin belajar atau mendownload apapun bebas limit
+#### Warning
+Jangan digunakan untuk keuntungan pribadi. ini milik semua, salam kota pendekarr. jossss
+
 ### Preview bypass
 <img src="./carbon.png" width="500">
 ## Installation
