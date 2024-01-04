@@ -13,11 +13,12 @@ Jangan digunakan untuk keuntungan pribadi. ini milik bersama, salam kota pendeka
 ### Preview bypass
 <img src="./carbon.png" width="500">
 
-# Installation
+# Installation & play
 
 - install *node-v20.10.0-x86.msi* sampai selesai
 - lalu ekstrak rar  *node_modules.rar* menggunakan software winrar atau bawaan dari windows
 - buka installNpm.bat jika folder *node_modules* tidak tersedia atau rusak
+- jika sudah, klik start.bat dan selesai
 
 #### Link terkait
 [NODE JS](https://nodejs.org/en)
