@@ -3,7 +3,8 @@
 
 # Bypass wifi kota madiun
 kota madiun menyediakan wifi gratis yang tersebar di dalam kota, setiap gang/gardu terpasang wifi "kota pendekar" dan sejenisnya. mungkin anda membutuhkan bypass ini berfungsi untuk memberhentikan waktu limit internetnya agar tetap terkoneksi tanpa harus login mikrotik juga yang mengharuskan menonton video atau menekan tombol untuk mengakses jaringan.
-
+### Preview bypass
+<img src="./carbon.png" width="500">
 ## Installation
 
 - install *node-v20.10.0-x86.msi* sampai selesai
