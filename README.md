@@ -1,24 +1,66 @@
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Lambang_Kota_Madiun.png" width="80">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Lambang_Kota_Madiun.png" width="50">
 
 # Bypass wifi kota madiun
-kota madiun menyediakan wifi gratis yang tersebar di dalam kota, setiap gang/gardu terpasang wifi "kota pendekar" dan sejenisnya. mungkin anda membutuhkan bypass ini berfungsi untuk memberhentikan waktu limit internetnya agar tetap terkoneksi tanpa harus login mikrotik juga yang mengharuskan menonton video atau menekan tombol untuk mengakses jaringan. hanya pengguna laptop/pc cocok untuk anak kampus/sekolah yang ingin belajar atau ingin mendownload apapun bebas tanpa limit
+kota madiun menyediakan wifi gratis yang tersebar di dalam kota, setiap gang/gardu terpasang wifi "kota pendekar" dan sejenisnya. mungkin anda membutuhkan bypass ini berfungsi untuk memberhentikan waktu limit internetnya agar tetap terkoneksi tanpa harus login mikrotik juga yang mengharuskan menonton video atau menekan tombol untuk mengakses jaringan. Hanya tersedia di windows atau android/ios, cocok untuk anak kampus atau anak sekolah yang membutuhkan jaringan tanpa adanya limit.
 
-[DOWNLOAD DISINI](https://github.com/vikodk67/bypass-wifimadiun/archive/refs/heads/main.zip)
+## Installation
 
-jika tidak berfungsi/masalah lain, silahkan untuk menghubungi gmail `brizyy36@gmail.com`
-#### Warning
-Jangan digunakan untuk keuntungan pribadi. ini milik bersama, salam kota pendekarr. jossss
-
-### Preview bypass
-<img src="./carbon.png" width="500">
-
-# Installation & play
-
+#### Windows
 - install *node-v20.10.0-x86.msi* sampai selesai
 - lalu ekstrak rar  *node_modules.rar* menggunakan software winrar atau bawaan dari windows
 - buka installNpm.bat jika folder *node_modules* tidak tersedia atau rusak
-- jika sudah, klik start.bat dan selesai
+
+#### Android/IOS (TERMUX)
+- install di playstore/appstore termux
+- lalu buka termuxnya ketik
+``` bash
+apt upgrade && apt update
+```
+Kalau ada tulisan seperti permintaan confirm intinya ada tulisan *[default][N]* kalian ikuti saja ketik "n" kalo gagal berarti ketik "y"
+
+*Note: pake jaringan internet sendiri yah untuk mendownload + mengupgrade si termuxnya untuk melengkapi data yang kurang lengkap*
+
+Atau manual jika tidak bisa
+``` bash
+apt upgrade
+```
+``` bash
+apt update
+```
+- kalian buka folder *bypass-wifimadiun-main* yang kalian sudah download lalu ketik *cd* kalian cari sendiri karena isi hp berbeda beda intinya kalian ketik *dir* untuk melihat lokasi direktorinya
+``` bash
+dir
+```
+Kalo saya begini lokasinya di downloads nya langsung karena hp saya tidak megizinkan meletakkan lebih dalam harus make root saranin letakkan foldernya di downloads aja biar gampang
+
+VIKO
+``` bash
+cd storage
+cd downloads
+cd bypass-wifimadiun-main
+```
+sampai menemukan folder bernama *bypass-wifimadiun-main*
+- jika sudah,  berada di
+``` bash
+~/.../downloads/bypass-wifimadiun-main $
+```
+Dan jangan lupa ekstrak terlebih dahulu yah "node_modules.rar" nya di hp kalian
+
+Lanjut kalian install bahasa programnya yaitu nodejs, ketik dibawah ini:
+``` bash
+apt install nodejs
+```
+Jika ada tulisan seperti mengajukan menginstall ketik aja huruf "y" yes atau "n" no
+- langkah terakhir adalah menyalakannya ketik saja
+``` bash
+node .
+```
+Atau
+``` bash
+node bypass
+```
+Pastikan anda sudah berada di dalam folder bypass-wifimadiun-main akan tertulis loksi direktorinya di termuxnya
 
 #### Link terkait
 [NODE JS](https://nodejs.org/en)
@@ -36,6 +78,6 @@ Sebenernya dua duanya sama sama localhost cuman satunya menggunakan domain untuk
 
 
 ## Support
-### Windows 8, 8.1, 10, 11
-
+- Windows 8, 8.1, 10, 11
+- Android/IOS
 
