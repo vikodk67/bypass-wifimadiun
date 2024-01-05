@@ -9,7 +9,9 @@ kota madiun menyediakan wifi gratis yang tersebar di dalam kota, setiap gang/gar
  <img src="https://cdn.icon-icons.com/icons2/2235/PNG/512/windows_os_logo_icon_134674.png" width="30">
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Termux_2.png" width="30">
 </div>
+
 *Note: jika bertuliskan error failed to fetch kalian tinggal run/jalankan skripnya yang ada di bawah ini*
+
 #### Windows
 - install *node-v20.10.0-x86.msi* sampai selesai
 - lalu ekstrak rar  *node_modules.rar* menggunakan software winrar atau bawaan dari windows
