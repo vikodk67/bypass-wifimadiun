@@ -10,7 +10,7 @@ kota madiun menyediakan wifi gratis yang tersebar di dalam kota, setiap gang/gar
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Termux_2.png" width="30">
 </div>
 
-*Note: jika bertuliskan error failed to fetch kalian tinggal run/jalankan skripnya yang ada di bawah ini*
+*Note: jika bertuliskan error failed to fetch kalian tinggal run/jalankan skripnya kembali "node ." / "node bypass"*
 
 #### Windows
 - install *node-v20.10.0-x86.msi* sampai selesai
