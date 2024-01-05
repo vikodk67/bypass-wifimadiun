@@ -55,7 +55,7 @@ cd downloads
 cd bypass-wifimadiun-main
 ```
 sampai menemukan folder bernama *bypass-wifimadiun-main*
-- jika sudah,  berada di
+- jika sudah berada dilokasi tempat kamu mendownload, contoh punya saya dibawah ini
 ``` bash
 ~/.../downloads/bypass-wifimadiun-main $
 ```
