@@ -1,4 +1,3 @@
-
 @echo off
 echo Bypass by viko dwi kurniawan
 echo https://github.com/vikodk67

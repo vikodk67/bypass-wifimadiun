@@ -4,11 +4,13 @@ const axios = require("axios")
 const cheerio = require("cheerio")
 const c = require('./config.json').url[0];
 const nodeCmd = require('node-cmd');
+const fs = require('fs');
+
 const intervals = require('./config.json').intervalWaktu;
 console.dir('Target '+c);
 
 async function inter() {
-	 
+
 getJs = await axios.get(c+'/status',{
 	headers: { 
     'Access-Control-Allow-Origin' : '*',
@@ -24,7 +26,7 @@ getJs = await axios.get(c+'/status',{
 	  if(!ip) return { status: "blanked" }
 	  return `bypass kota madiun ${trfic} exp: ${exp} aktif: ${activ}`
 	}).catch(function (error) {
-	return error  
+	return "Error, koneksi terputus"  
   })
   
 axios.get(c+'/login').then(async (val) => {
@@ -37,14 +39,28 @@ axios.get(c+'/login').then(async (val) => {
 	  } else {
       console.log("unlogin bypass... "+ dst);
 	  try {
-		fetch(dst);
+		axios({
+  method: 'get',
+  url: dst,
+  responseType: 'text'
+     })
+     .then(function (response) {
+		 console.log(response)
+		 try {
+			 fs.writeFileSync(process.cwd()+"/log/dst.log", String(dst));
+			 fs.writeFileSync(process.cwd()+"/log/tmp.log", String(response.data));
+		 }catch {
+			 nodeCmd.run('mkdir log', (err, data, stderr) => console.log(data));
+		 }
+		 
+	 })
 	  }catch(e){
-	   console.error("Tidak dapat membypass "+e);
+	   console.error("Tidak dapat membypass ");
 	  }
        
 	  }
   }).catch(function (error) {
-  console.error(error);
+  console.error("Error, koneksi tidak dapat terhubung");
  })
 }
 setInterval(inter, intervals);
