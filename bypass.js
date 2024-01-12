@@ -2,19 +2,16 @@
 try {
 const axios = require("axios")
 const cheerio = require("cheerio")
-const c = require('./config.json').url[0];
+const away = require('./config.json').url[0];
 const nodeCmd = require('node-cmd');
-const net = require("network");
 const fs = require('fs');
 
 const intervals = require('./config.json').intervalWaktu;
 
 async function inter() {
 	
-net.get_gateway_ip(async function(err, away){
-
    console.dir('Target '+away);
-getJs = await axios.get('http://'+away+'/status',{
+getJs = await axios.get(away+'/status',{
 	headers: { 
     'Access-Control-Allow-Origin' : '*',
 	'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS',
@@ -33,7 +30,7 @@ getJs = await axios.get('http://'+away+'/status',{
 	return "Error, koneksi terputus"  
   })
   
-axios.get('http://'+away+'/login').then(async (val) => {
+axios.get(away+'/login').then(async (val) => {
 	
     const $ = cheerio.load(val.data)
       // load data
@@ -65,7 +62,6 @@ axios.get('http://'+away+'/login').then(async (val) => {
 	  }
   }).catch(function (error) {
   console.error("Error, koneksi tidak dapat terhubung");
- })
  })
 }
 setInterval(inter, intervals);
